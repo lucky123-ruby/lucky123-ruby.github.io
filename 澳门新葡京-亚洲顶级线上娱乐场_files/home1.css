@@ -1,0 +1,104 @@
+#slide-banner{position:relative;height:450px;overflow:hidden}
+#slide-banner .slide{position:absolute;top:0;left:50%;margin-left:-960px}
+#slide-banner .slide a{display:none;width:1920px;height:450px}
+#slide-banner .slide a.on{ z-index: 2; }
+#slide-banner .slide-pager{position:absolute;bottom:80px;left:0;width:100%;height:0;text-align:center}
+#slide-banner .slide-pager li{display:inline-block;width:15px;height:15px;margin:0 4px;font-size:0;background-color:#fff;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;cursor:pointer}
+#slide-banner .slide-pager li.on{background-color:#ff0}
+#slide-banner .slide-click{position:absolute;top:190px;left:50%;width:50px;height:50px;cursor:pointer;background:no-repeat center;-moz-transition:all .25s;-o-transition:all .25s;-webkit-transition:all .25s;transition:all .25s}
+#slide-banner .slide-click:hover{color:#b6b6b6;border-color:#b6b6b6}
+#slide-banner .slide-click.prev{margin-left:-446px;background-image:url('../images/prev.png')}
+#slide-banner .slide-click.prev:hover{background-image:url('../images/prev_h.png')}
+#slide-banner .slide-click.next{margin-left:395px;background-image:url('../images/next.png')}
+#slide-banner .slide-click.next:hover{background-image:url('../images/next_h.png')}
+#banner{height:450px;}
+#content{font-size:0;background-image:url('../images/bg.jpg')}
+#news{position:absolute;top:-40px;left:0;right:0}
+#news .wrapper{background:#353749 ;background:rgba(36,41,51,.8)}
+#hot-news li{color:#fff}
+#home{position:relative;padding-top:10px;z-index:0}
+#home .game-item{position:relative;height:75px;text-align:center;background:#fff;z-index:1}
+#home .game-item>span{position:absolute;top:0;width:28px;height:75px;font-size:13px;line-height:18px;z-index:1}
+#home .game-item>span.left-title{left:0;width:31px;padding:1px 0 0 7px;color:#fff;text-align:left;background:url('../images/hotgame.png') no-repeat center}
+#home .game-item>span.right-title{right:0;padding:2px 8px 0;color:#8f8f8f;background:#d8d8d8}
+#home .game-item ul{position:absolute;top:0;left:27px;right:28px;padding-left:4px;display:block;height:75px;overflow:hidden;text-align:left;background:#fff}
+#home .game-item ul:hover{height:auto}
+/* #home .game-item ul li{display:inline-block;vertical-align:top;width:117px;height:75px;color:#434343;font-size:14px;line-height:75px;text-align:center;white-space:nowrap;overflow:hidden;-ms-text-overflow:ellipsis;-o-text-overflow:ellipsis;text-overflow:ellipsis;-moz-transition:all .4s;-o-transition:all .4s;-webkit-transition:all .4s;transition:all .4s} */
+#home .game-item ul li{display:inline-block;vertical-align:top;width:133px;height:75px; padding-top: 24px; color:#434343;font-size:14px;text-align:left;white-space:nowrap;overflow:hidden;-ms-text-overflow:ellipsis;-o-text-overflow:ellipsis;text-overflow:ellipsis;-moz-transition:all .4s;-o-transition:all .4s;-webkit-transition:all .4s;transition:all .4s; box-sizing: border-box;}
+#home .game-item ul li:hover{margin-top:-10px;color:#ff1818;text-decoration:underline}
+#home .game-item ul li .en{ display: block; font-size: 12px; text-indent: 5px; color: #999; transform: scale(.8); -webkit-transform: scale(.8); transform-origin: left center; -webkit-transform-origin: left center; }
+#home .game-item ul li:hover .en{color:#ff1818}
+#home .game-item ul li:before{content:'';display:inline-block;margin-right:5px;vertical-align:middle;background:no-repeat center}
+#home .game-item ul li[game-box="mg"]{background:url('../images/game-item/mg.png') no-repeat left 4px center; padding-left:38px;}
+#home .game-item ul li[game-box="pt"]{background:url('../images/game-item/pt.png') no-repeat left 4px center; padding-left:54px;}
+#home .game-item ul li[game-box="ag"]{background:url('../images/game-item/ag.png') no-repeat left 4px center; padding-left:64px;}
+#home .game-item ul li[game-box="bb"]{background:url('../images/game-item/bb.png') no-repeat left 4px center; padding-left:75px; margin-left: 10px;}
+#home .game-item ul li[game-box="hb"]{background:url('../images/game-item/hb.png') no-repeat left 4px center; padding-left:35px; width: 110px; margin-left: 10px;}
+#home .game-item ul li[game-box="cq9"]{background:url('../images/game-item/cq9.png') no-repeat left 4px center; padding-left:54px;}
+#home .game-item ul li[game-box="gpi"]{background:url('../images/game-item/gpi.png') no-repeat left 4px center; padding-left:46px;}
+#home .game-item ul li[game-box="gns"]{background:url('../images/game-item/gns.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="fish"]{background:url('../images/game-item/fish.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="kg"]{background:url('../images/game-item/kg.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="jdb"]{background:url('../images/game-item/jdb.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="isb"]{background:url('../images/game-item/isb.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="sg"]{background:url('../images/game-item/sg.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="ne"]{background:url('../images/game-item/ne.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="pp"]{background:url('../images/game-item/pp.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="rt"]{background:url('../images/game-item/rt.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="ga"]{background:url('../images/game-item/ga.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="pg"]{background:url('../images/game-item/pg.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="png"]{background:url('../images/game-item/png.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="sw"]{background:url('../images/game-item/sw.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="mw"]{background:url('../images/game-item/mw.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="fg"]{background:url('../images/game-item/fg.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="gpk"]{background:url('../images/game-item/gpk.png') no-repeat left 4px center; padding-left:42px;}
+#home .game-item ul li[game-box="gpk2"]{background:url('../images/game-item/gpk2.png') no-repeat left 4px center; padding-left:42px;}
+#game-box{display:block;margin:10px -5.3px 0}
+#game-box>li{display:inline-block;vertical-align:top;width:242px;height:337px;margin:0 5.3px 10px;background:#fff}
+#game-box>li>a{position:relative;display:block;height:100%;overflow:hidden;text-decoration:none}
+#game-box>li[data-img]>a:before{content:'';display:block;width:232px;height:193px;margin:5px auto 0;background:no-repeat center;-moz-transition:all .3s;-o-transition:all .3s;-webkit-transition:all .3s;transition:all .3s}
+#game-box>li[data-img]:hover>a:before{-moz-transform:scale(1.05);-ms-transform:scale(1.05);-o-transform:scale(1.05);-webkit-transform:scale(1.05);transform:scale(1.05)}
+#game-box>li[data-img]>a:after{content:'';position:absolute;top:0;left:0;right:0;height:203px;opacity:0;filter:alpha(opacity=0);background:url('../images/game-box/hover.png') no-repeat center;-moz-transition:all .3s;-o-transition:all .3s;-webkit-transition:all .3s;transition:all .3s}
+#game-box>li[data-img]:hover>a:after{opacity:1;filter:alpha(opacity=100)}
+#game-box>li[data-img="slot"] a:before{background-image:url('../images/game-box/game.jpg')}
+#game-box>li[data-img="board"] a:before{background-image:url('../images/game-box/board.jpg')}
+#game-box>li[data-img="fish"] a:before{background-image:url('../images/game-box/fish.jpg')}
+#game-box>li[data-img="lottery"] a:before{background-image:url('../images/game-box/lottery.jpg')}
+#game-box>li[data-img="live"] a:before{background-image:url('../images/game-box/live.jpg')}
+#game-box>li[data-img="sport"] a:before{background-image:url('../images/game-box/sport.jpg')}
+#game-box>li[data-img]>a>p{margin:0 5px}
+#game-box>li[data-img]>a>p.title{font-size:18px;color:#1b1b1b;line-height:60px;border-bottom:1px dashed #a0a0a0}
+#game-box>li[data-img]>a>p.title .en{float:right;color:#7d7d7d;font-size:12px}
+#game-box>li[data-img]:hover>a>p.title,#game-box>li[data-img]:hover>a>p.title .en{color:#ff1818}
+#game-box>li[data-img]>a>p.text{margin-top:10px;color:#888;font-size:12px;line-height:29px;text-align:justify}
+#game-box>li[data-img]>a>p.text .green{color:#3ba800}
+#game-box>li[data-img]>a>p.text .red{color:#ff1818}
+#game-box>li[data-img]>a>p.text .cyan{color:#54bfef}
+#game-box>li[data-img]>a>p.text .purple{color:#ff14ff}
+#game-box>li.jackpot>div{margin:0 5px;padding-top:25px;text-align:center;color:#a7936a;font-size:26px;line-height:67px;border-bottom:1px dashed #a0a0a0}
+#game-box>li.jackpot>div span.title{display:block;color:#434343;font-size:14px;line-height:24px}
+#game-box>li.jackpot>div span.title:before{content:'';display:inline-block;vertical-align:middle;margin-right:5px;background:no-repeat center}
+#game-box>li.jackpot>div span.title.mg:before{width:24px;height:24px;background-image:url('../images/game-box/mg.png')}
+#game-box>li.jackpot>div span.title.pt:before{width:28px;height:19px;background-image:url('../images/game-box/pt.png')}
+#game-box>li.jackpot>div span.title.cq9:before{width:42px;height:16px;background-image:url('../images/game-box/cq9.png')}
+#game-box>li.jackpot>div+div{padding-top:18px}
+#game-box>li.winner-box{padding-top:107px;text-align:center;white-space:nowrap;overflow:hidden;background:#fff url('../images/winner.png') no-repeat center 27px}
+#game-box>li.winner-box>span{color:#1b1b1b;font-size:13px;font-weight:700;margin-right:27px}
+#game-box>li.winner-box>span.id{margin-left:22px}
+#game-box>li.winner-box>.main-cell{margin-top:10px;padding-left:3px;height:190px;overflow:hidden;white-space:nowrap}
+#game-box>li.winner-box>.main-cell ul{display:block;text-align:left}
+#game-box>li.winner-box>.main-cell ul li{margin-bottom:10px}
+#game-box>li.winner-box>.main-cell ul li span{width:76px;display:inline-block;color:#1094d0;font-size:12px;line-height:26px;vertical-align:top;text-align:center}
+#game-box>li.winner-box>.main-cell ul li span.game{color:#a0a0a0}
+#game-box>li.winner-box>.main-cell ul li span.money{color:#ff1818}
+#home .mobile-box{height:220px;background:#f4f4f4;border:10px solid #fff}
+#home .mobile-box>*{display:inline-block;vertical-align:top}
+#home .mobile-box .text{width:335px;margin:35px 0 0 50px;text-align:justify}
+#home .mobile-box .text h3{margin:0 0 23px;color:#1b1b1b;font-size:24px;font-weight:normal;text-align:center}
+#home .mobile-box .text p{color:#7d7d7d;font-size:12px;line-height:25px}
+#home .mobile-box .imgs li{display:inline-block;vertical-align:top;text-align:center;margin:35px 0 0 65px}
+#home .mobile-box .imgs li+li{margin-left:53px}
+#home .mobile-box .imgs li img{display:block;margin:0 auto;background:#fff;border:1px solid #d2d2d2}
+#home .mobile-box .imgs li span{display:block;height:20px;margin-top:8px;padding-left:18px;color:#535353;font-size:12px;line-height:20px;background:url('../images/icon_ios.png') no-repeat left center}
+#home .mobile-box .imgs li span.android{padding-left:22px;background-image:url('../images/icon_android.png')}
+#home .mobile-box .imgs:after{content:'';display:inline-block;width:193px;height:155px;margin:23px 0 0 12px;vertical-align:top;background:url('../images/mobile.png') no-repeat center}
